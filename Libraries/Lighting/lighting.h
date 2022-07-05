@@ -1,0 +1,10 @@
+void OffAllLamps(void);
+void FrontMainLamps(void);
+void FrontPositionLamps(void);
+void FrontPositionMainLamps_RESET(void);
+void DaytimeRunningLamp_SET(void);
+void DaytimeRunningLamp_RESET(void);
+void DaytimeRunningLampLeft(uint8_t percent);
+void DaytimeRunningLampRight(uint8_t percent);
+void LedInsideCar(uint8_t percent);
+void Lighting_Init(void);

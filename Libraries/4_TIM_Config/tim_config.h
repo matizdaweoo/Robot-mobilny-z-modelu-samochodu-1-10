@@ -1,0 +1,9 @@
+void Encoder_TIM_Init(void);			//TIM1
+void MotorImpulse_TIM_Init(void);		//TIM3
+void Lighting_TIM_Init(void);			//TIM4
+void Count_1us_TIM_Init(void);			//TIM6
+void Count_1ms_TIM_Init(void);			//TIM7
+void Pixy_PanTilt_TIM_Init(void);		//TIM9
+void LedLCD_TIM_Init(void);				//TIM11
+void MotorDC_TIM_Init(void);			//TIM13
+void TurnServo_TIM_Init(void);			//TIM14

@@ -1,0 +1,18 @@
+void CMUCam_FindObject(void);
+void CMUCam_TrackObject(void);
+void CMUCam_PixyEnable(void);
+void CMUCam_PixyDisable(void);
+void CMUCam_Pan_SetDegree(int8_t degree);
+void CMUCam_Pan_SetHomePosition(void);
+void CMUCam_Tilt_SetDegree(int8_t degree);
+void CMUCam_Tilt_SetHomePosition(void);
+void CMUCam_SendBuf(uint8_t *buf, uint8_t len);
+void USART6_IRQHandler(void);
+void CMUCam_SetLedColor(uint8_t red, uint8_t green, uint8_t blue);
+void CMUCam_CheckLedColor(void);
+void CMUCam_CheckPanTiltMechanism(void);
+void CMUCamSensor_Init(void);
+void PanTiltMechanism_Init(void);
+uint8_t FunkcjaJasnosciLed(uint8_t procent);
+uint16_t MedianAveragingFilter(uint16_t a, uint16_t b, uint16_t c, uint16_t d, uint16_t e);
+//int16_t medianAveragingFilter2(int16_t tabVal[], uint8_t len, uint8_t amountValToAvg);
